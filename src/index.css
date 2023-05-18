@@ -1,0 +1,275 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.top-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 125%;
+  /* identical to box height, or 70px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+}
+
+.top-text-inline {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 125%;
+  /* identical to box height, or 70px */
+  align-items: center;
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+}
+
+.top-text-blue {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 125%;
+  /* identical to box height, or 70px */
+
+  /* display: flex; */
+  align-items: center;
+  letter-spacing: -0.01em;
+
+  color: #0096ff;
+}
+
+.inline-text-margin span:not(:last-child) {
+  margin-right: 10px; /* Adjust the margin value as needed */
+}
+.bullet-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  /* identical to box height, or 32px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+}
+.bullet-container {
+  display: flex;
+  width: fit-content;
+  gap: 40px;
+  padding: 0px 10px;
+}
+.bullet-icon {
+  width: 35px;
+  height: 35px !important;
+}
+.testblue {
+  color: #0096ff;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.testwite {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.subcribe-main-container {
+  padding: 15px;
+  width: 440px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.subcribe-container {
+  /* padding: 8px 1px; */
+  /* width: 350px; */
+  /* height: 75px; */
+  position: relative;
+  background-color: #e7e7e7;
+  border-radius: 5px;
+  border: 2px solid #bebebe;
+}
+
+.offer-status-pink {
+  background-color: #f77171;
+  position: absolute;
+  left: 30px;
+  width: 7rem;
+  height: 1.2rem;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.offer-status-green {
+  background-color: #47ba68;
+  position: absolute;
+  left: 30px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #fff;
+  width: 7rem;
+  height: 1.2rem;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+#offer-expired {
+  background-color: #bebebe;
+}
+
+.horizontal {
+  background-color: #bebebe;
+  height: 0.1rem;
+}
+
+.subscription-fee-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.limited-offer {
+  padding: 5px;
+  border: 1px solid orangered;
+  background: linear-gradient(
+    135deg,
+    rgba(222, 67, 19, 0.2) 0%,
+    rgba(222, 67, 19, 0.2) 0.75%,
+    rgba(222, 67, 19, 0.2) 2.92%,
+    rgba(222, 68, 20, 0.2) 6.37%,
+    rgba(223, 69, 21, 0.2) 10.97%,
+    rgba(223, 72, 22, 0.2) 16.59%,
+    rgba(224, 75, 24, 0.2) 23.1%,
+    rgba(225, 80, 27, 0.2) 30.37%,
+    rgba(227, 86, 31, 0.2) 38.27%,
+    rgba(229, 94, 36, 0.2) 46.66%,
+    rgba(231, 104, 43, 0.2) 55.41%,
+    rgba(235, 117, 51, 0.2) 64.39%,
+    rgba(238, 132, 60, 0.2) 73.47%,
+    rgba(243, 149, 71, 0.2) 82.52%,
+    rgba(248, 169, 84, 0.2) 91.41%,
+    rgba(254, 193, 99, 0.2) 100%
+  );
+  border-radius: 8px;
+  height: 4rem;
+}
+
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 45px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  background: linear-gradient(90.72deg, #0096FF 42.18%, #0048FF 93.77%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.limited-offer-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.radio-container {
+  padding: 0px 20px;
+}
+
+.radio-container .subcribe-container {
+  margin-bottom: 15px;
+}
+
+.center-imp {
+  display: flex !important;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.center-grid {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #0096ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main-title-container{
+  position: relative;
+    top: 67px;
+    left: 40px;
+}
+
+#bullet-container{
+  position: relative;
+    top: 75px;
+}
+
+.bullet-wapper > div{
+  margin-bottom: 40px;
+}
+
+
+.custom-button{
+  width: 166px;
+  height: 40px;
+  background: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+  border-radius: 52px;
+  font-size: 13px !important;
+  color: white !important;
+  font-weight: 500;
+}
