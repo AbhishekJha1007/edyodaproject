@@ -21,7 +21,7 @@ const BulletContainer = (props) => {
     
     
         spiltArr.forEach(element => {
-            if(element == bluetext){
+            if(element === bluetext){
                 stringArrObj.push({ text : element,isBlue: true })
             }else{
                 stringArrObj.push({ text : element,isBlue: false })
